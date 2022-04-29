@@ -1,0 +1,75 @@
+:root{
+    --black: #141414;
+    --red: #E50914;
+}
+*{
+    box-sizing: border-box;
+    color:#ffffff;
+}
+body{
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+}
+header .container{
+    align-items: center;
+    display: flex;
+    margin: 12px auto;
+    justify-content: space-between;
+    width: 70%;
+}
+header .logo{
+    color: var(--red);
+    display: inline;
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-right: 10px;
+}
+.nav-menu{
+    padding: 4px;
+}
+.nav-ul li{
+    display: inline;
+}
+.header-menu{
+    align-content: space-around;
+}
+.header-menu a:hover{
+    color: orange;
+}
+.destaque{
+    align-items: flex-start;
+    background:linear-gradient(rgba(0,0,0,.10),rgba(0,0,0,100%)), url('../img/tgd.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    height: 400px;
+    justify-content: center;
+}
+.destaque .destaque-descricao{
+    margin-top: 10px;
+}
+.destaque .destaque-button{
+    border-radius: 0.14rem;
+    font-size: 16px;
+    margin: auto 8px;
+    padding: 8px 10px;
+    position: relative;
+    bottom: 40px;
+}
+.destaque .container{
+    margin: auto 8px;
+}
+.destaque .destaque-titulo{
+    font-size: 50px;
+}
+#mais-infos{
+    background-color: rgba(200,200,200,0.2);
+}
+#assistir{
+    background: var(--red);
+}
