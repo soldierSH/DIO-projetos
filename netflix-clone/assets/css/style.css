@@ -10,6 +10,10 @@ body{
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
 }
+header{
+    display: flex;
+    height: 80px;
+}
 header .container{
     align-items: center;
     display: flex;
@@ -38,7 +42,7 @@ header nav a{
     align-content: space-around;
 }
 .header-menu a:hover{
-    color: orange;
+    color: white;
 }
 .destaque{
     align-items: flex-start;
@@ -54,10 +58,12 @@ header nav a{
     margin-top: 10px;
 }
 .destaque .destaque-button{
+    align-items: center;
     border-radius: 0.14rem;
+    display: flex;
     font-size: 16px;
     margin: auto 8px;
-    padding: 8px 10px;
+    padding: 10px 8px;
     position: relative;
     bottom: 40px;
 }
@@ -65,11 +71,31 @@ header nav a{
     margin: auto 8px;
 }
 .destaque .destaque-titulo{
+    font-family:'Trebuchet MS', Arial, sans-serif;
     font-size: 50px;
 }
+.destaque .destaque-descricao{
+    width: 490px;
+}
+.botoes{
+    display: flex;
+}
+.icons{
+    margin-right: 4px;
+}
 #mais-infos{
-    background-color: rgba(200,200,200,0.2);
+    background-color: rgba(100,100,100,0.2);
 }
 #assistir{
-    background: var(--red);
+    background-color: var(--red);
+}
+#mais-infos:hover{
+    background-color: rgba(250, 250, 250, 0.3);
+    cursor: pointer;
+    transition-duration: 0.15s;
+}
+#assistir:hover{
+    background-color: rgb(167, 0, 0);
+    cursor: pointer;
+    transition-duration: 0.2s;
 }
