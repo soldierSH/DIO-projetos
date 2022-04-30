@@ -75,13 +75,18 @@ header nav a{
     font-size: 50px;
 }
 .destaque .destaque-descricao{
-    width: 490px;
+    width: 60%;
 }
 .botoes{
     display: flex;
 }
 .icons{
-    margin-right: 4px;
+    margin-right: 6px;
+}
+.nome-carrossel{
+    font-family: 'Arial Black', Times;
+    font-size: 20px;
+    margin: 14px 0 10px 6px;
 }
 #mais-infos{
     background-color: rgba(100,100,100,0.2);
