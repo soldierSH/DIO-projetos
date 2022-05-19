@@ -1,2 +1,2 @@
-# Carrefour-Bootcamp
-O Bootcamp Carrefour Web Developer tem como foco principal formar profissionais developers nas tecnologias JavaScript, ReactJS, JAVA e Springboot.
+# Bootcamp e cursos DIO
+Repositório com projetos de cursos e bootcamps da plataforma DIO.
