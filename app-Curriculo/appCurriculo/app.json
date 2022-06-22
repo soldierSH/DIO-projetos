@@ -1,0 +1,35 @@
+{
+  "name": "appCurriculo",
+  "displayName": "appCurriculo",
+  "expo": {
+    "name": "appCurriculo",
+    "slug": "appCurriculo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/fulano.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/fulano.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/fulano.jpg",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/fulano.jpg"
+    }
+  }
+}
