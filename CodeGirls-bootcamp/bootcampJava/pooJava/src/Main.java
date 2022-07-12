@@ -9,7 +9,7 @@ import br.com.dio.desafio.dominio.*;
 public class Main {
     static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, DIO!");
+        System.out.println("\nHello, DIO!\n");
 
         Curso cursoJS = new Curso();
         cursoJS.setTitulo("Sintaxe Básica em Javascript");
@@ -33,7 +33,6 @@ public class Main {
         boot.getConteudos().add(mentoria);
 
         Developer devScarlet = new Developer("Scarlet");
-        devScarlet.IncreverBootcamp(boot);
         devScarlet.getConteudoConcluido().add(mentoria);
         Developer devHanna = new Developer("Hanna");
         devHanna.IncreverBootcamp(boot);
