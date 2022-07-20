@@ -9,4 +9,4 @@ Decola Tech 3a edição: *Concluído*
 
 Impulso Javascript Evolution: *Em andamento*
 
-Santander Code Girls: *Em andamento*
+Santander Code Girls: *Concluído*
