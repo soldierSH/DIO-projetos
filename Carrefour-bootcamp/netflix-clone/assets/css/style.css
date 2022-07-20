@@ -6,6 +6,9 @@
     box-sizing: border-box;
     color:#ffffff;
 }
+a{
+    text-decoration: none;
+}
 body{
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
@@ -46,7 +49,7 @@ header nav a{
 }
 .destaque{
     align-items: flex-start;
-    background:linear-gradient(rgba(0,0,0,.10),rgba(0,0,0,100%)), url('../img/tgd.jpg');
+    background:linear-gradient(rgba(0,0,0,.10),rgba(0,0,0,48%)), url('../img/backstranger.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -54,8 +57,12 @@ header nav a{
     height: 400px;
     justify-content: center;
 }
-.destaque .destaque-descricao{
+.destaque{
     margin-top: 10px;
+}
+.destaque-descricao{
+    font-size: 18px;
+    margin-top: 14px;
 }
 .destaque .destaque-button{
     align-items: center;
@@ -87,6 +94,12 @@ header nav a{
     font-family: 'Arial Black', Times;
     font-size: 20px;
     margin: 14px 0 10px 6px;
+}
+.item{
+    width: 20vw;
+}
+.texto{
+    width: 750px;
 }
 #mais-infos{
     background-color: rgba(100,100,100,0.2);
