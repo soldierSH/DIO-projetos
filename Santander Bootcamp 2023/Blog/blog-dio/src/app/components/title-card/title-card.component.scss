@@ -1,0 +1,14 @@
+.menu_title{
+  justify-content: center;
+}
+.menu_title > a > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin: 1rem;
+}
+hr{
+  margin: 1.2rem;
+}

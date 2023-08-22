@@ -1,0 +1,17 @@
+.cover > img{
+  width: 50%;
+}
+.cover{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.container__content{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.description{
+  width: 60%;
+  font-size: 1.2rem;
+}
