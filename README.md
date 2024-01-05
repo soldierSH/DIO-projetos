@@ -12,3 +12,4 @@ Repositório com projetos de cursos e bootcamps da plataforma DIO.
 ## Cursos
 - **Formação ChatGPT for Dev**: *Em Andamento*
 - **Formação Angular**: *Em Andamento*
+- - **Formação Lógica de Programação**: *Concluído*
